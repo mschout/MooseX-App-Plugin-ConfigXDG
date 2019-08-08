@@ -1,5 +1,7 @@
 package MooseX::App::Plugin::ConfigXDG;
 
+# ABSTRACT: Config files in XDG config directories
+
 use 5.010;
 use utf8;
 
@@ -21,3 +23,21 @@ sub plugin_metaroles {
 1;
 
 __END__
+
+=head1 SYNOPSIS
+
+In your base class:
+
+ package MyApp;
+ use MooseX::App qw(ConfigXDG);
+
+=head1 DESCRIPTION
+
+Works just like L<MooseX::App::Plugin::Config>, but assumes that the config
+file always resides in the user's XDG config directory.  By default, this is
+C<< $HOME/.config/${app-base}/config.(yml|xml|ini|...) >>.
+
+You can override the XDG config base (from C<< $HOME/.config >>) with the
+environmental variable C<XDG_CONFIG_HOME>.
+
+=cut
