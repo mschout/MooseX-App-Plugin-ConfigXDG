@@ -10,6 +10,5 @@ README
 SIGNATURE
 lib/MooseX/App/Plugin/ConfigXDG.pm
 lib/MooseX/App/Plugin/ConfigXDG/Meta/Class.pm
-t/author-pod-coverage.t
 t/author-pod-syntax.t
 t/author-signature.t
