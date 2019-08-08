@@ -29,7 +29,10 @@ requires:
   namespace::autoclean: '0'
   perl: '5.010'
   utf8: '0'
-resources: {}
+resources:
+  bugtracker: https://github.com/mschout/perl-moosex-app-plugin-configxdg/issues
+  homepage: https://github.com/mschout/perl-moosex-app-plugin-configxdg
+  repository: https://github.com/mschout/perl-moosex-app-plugin-configxdg.git
 version: '0.01'
 x_generated_by_perl: v5.26.2
 x_serialization_backend: 'YAML::Tiny version 1.73'

@@ -52,6 +52,20 @@ C<< $HOME/.config/${app-base}/config.(yml|xml|ini|...) >>.
 You can override the XDG config base (from C<< $HOME/.config >>) with the
 environmental variable C<XDG_CONFIG_HOME>.
 
+=head1 SOURCE
+
+The development version is on github at L<https://https://github.com/mschout/perl-moosex-app-plugin-configxdg>
+and may be cloned from L<git://https://github.com/mschout/perl-moosex-app-plugin-configxdg.git>
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+L<https://github.com/mschout/perl-moosex-app-plugin-configxdg/issues>
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
 =head1 AUTHOR
 
 Michael Schout <mschout@cpan.org>
